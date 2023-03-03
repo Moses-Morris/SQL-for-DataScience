@@ -8,4 +8,4 @@ print(openFile.Name)
 print("Minimum Age is : {}".format(openFile.Age.min()))
 openFile.info() # prints the information and specifics of the dataset
 openFile.Name.hist()
-openFile.head(28)
+openFile.head()
