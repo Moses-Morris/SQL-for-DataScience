@@ -7,3 +7,5 @@ Libraries:
 3. pandasql = connects pandas library to sql queries structure
 
 NB: Use Jupyter Notebook for visualizing the data representation.
+>pip install jupyterlab  (How to install jupyter)
+>jupyter-lab  (How to launch jupyter)
