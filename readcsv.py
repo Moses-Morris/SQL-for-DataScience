@@ -1,8 +1,8 @@
-#import pandas as pd
+import pandas as pd
 from csv import reader 
 
-file = "athlete_events.csv"
+file = open("athlete_events.csv")
 data = reader(file)
-information = data.json()
+information = list(data)
 print(data)
 print(information)
